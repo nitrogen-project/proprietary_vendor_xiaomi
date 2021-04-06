@@ -149,10 +149,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libvolumelistener.so
 
 PRODUCT_PACKAGES += \
-    libantradio \
+    SoterService \
+    DeviceInfo \
     QtiTelephonyService \
+    datastatusnotification \
+    embms \
+    imssettings \
+    WfdService \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    SoterService \
     WfdCommon
